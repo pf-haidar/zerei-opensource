@@ -68,7 +68,7 @@ class _AuthFormState extends State<AuthForm> {
                 key: const ValueKey('password'),
                 obscureText: true,
                 initialValue: _formData.password,
-                onChanged: (password) => _formData.password = password,
+                onChanged: (value) => _formData.password = value,
                 labelText: 'Senha',
                 validator: (inputPassword) {
                   final password = inputPassword ?? '';

@@ -5,8 +5,6 @@ import 'package:zerei_opensource/core/store/search.store.dart';
 import 'package:zerei_opensource/views/auth_or_app_view.dart';
 import 'package:provider/provider.dart';
 
-// https://rawg.io/apidocs
-
 void main() {
   runApp(const Zerei());
 }
